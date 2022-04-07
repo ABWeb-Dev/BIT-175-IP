@@ -1,0 +1,41 @@
+/*Do not alter any positioning or dimension elements, will affect responsive components in Bootstrap*/
+body{
+    background-color: #2C8973;
+}
+
+header {
+    background-color: #212121;
+    color: #fff;
+}
+
+header>h1{
+    font-size: 4rem;
+}
+
+header>h2{
+    font-size: 3rem;
+}
+
+nav {
+    background-color: #212121;
+}
+
+footer {
+    background-color: #212121;
+    color: #fff; 
+}
+
+/*Only exception, make sure images are properly sized*/
+.carousel img {
+    max-height: 20rem;
+    margin: 0 auto;
+}
+
+article {
+    background-color: #fff;
+    color: #212121;
+}
+aside {
+    background-color: #fff;
+    color: #212121;
+}
